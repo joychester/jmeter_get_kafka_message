@@ -2,7 +2,7 @@
 To use Jmeter to get kafak messages by partitions, for preparing testing data purpose across all jmeter agents
 
 ## How to run the jmeter cmd line by input topic and partition value: 
-./jmeter -n -t data_prepare_with_kafka.jmx -Jtopic=users -Jtopic_partition=0
+> $ ./jmeter -n -t data_prepare_with_kafka.jmx -Jtopic=users -Jtopic_partition=0
 
 
 ## How to use default file-source connector to publish messages Round-Robin to kafka Topic partitions
